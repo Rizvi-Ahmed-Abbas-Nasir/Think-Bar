@@ -100,7 +100,7 @@
 
     .menu-lines span { 
       display: inline-block; 
-      font-size: 0.72rem; 
+      font-size: 0.72rem;  
       letter-spacing: 1px; 
     }
 
@@ -109,6 +109,7 @@
       transform: translateY(-2px); 
     }
 
+    
     .hero-section {
       position: relative;
       height: 100vh;
@@ -119,6 +120,7 @@
       background-color: #0b0b0b;
     }
 
+    
     .gradient {
       position: absolute;
       inset: 0;
@@ -138,6 +140,7 @@
       filter: blur(40px);
     }
 
+    
     .hero-section::before {
       content: "";
       position: absolute;
@@ -157,6 +160,7 @@
       pointer-events: none;
     }
 
+    
     .hero-section::after {
       content: "";
       position: absolute;
@@ -245,7 +249,7 @@
       z-index: 4;
     }
 
-    /* Rings decoration */
+    
     .rings-decoration {
       position: absolute;
       right: 100px;
@@ -319,6 +323,7 @@
       50% { transform: translateY(-10px); }
     }
 
+    
     .section-light2 {
       background: #faf7ef;
       color: #000;
@@ -364,8 +369,9 @@ color: #000;
       min-height: auto;
     }
 
+    
     .section-light .section-title {
-      font-size: clamp(2.6rem, 5.2vw, 4rem);
+      font-size: clamp(2.6rem, 5.2vw, 4rem); 
       font-weight: 900;
       text-transform: uppercase;
       letter-spacing: -1px;
@@ -378,7 +384,7 @@ color: #000;
     }
 
     .section-light .section-sub {
-      font-size: clamp(0.9rem, 1.8vw, 1.15rem);
+      font-size: clamp(0.9rem, 1.8vw, 1.15rem); 
       font-weight: 800;
       text-transform: uppercase;
       letter-spacing: 0.6px;
@@ -395,6 +401,7 @@ color: #000;
       opacity: 0.98;
     }
 
+    
     .btn-cta {
       display: inline-block;
       background: #0b0b0b; 
@@ -418,6 +425,7 @@ color: #000;
 
     .cta-wrap { margin-top: 22px; }
 
+    
     @media (min-width: 768px) {
       .section-light .col-md-6.text-md-center,
       .section-light .col-md-6.align-items-md-center {

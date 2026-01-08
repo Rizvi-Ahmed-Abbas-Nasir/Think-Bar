@@ -1,107 +1,104 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
+  <meta charset="UTF-8" />
   <title>Thinkbar</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
-  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
- <link rel="stylesheet" href="style.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" />
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
 </head>
+
 <body>
 
-<section class="hero-section">
+<header class="header">
+  <div class="header-actions">
+    <button class="connect" aria-label="Let's connect">
+      <span class="glow" aria-hidden="true"></span>
+      <span class="connect-text">LET’S CONNECT</span>
+      <span class="plus">+</span>
+    </button>
+
+    <button class="menu-btn" aria-label="Open menu">
+      <span class="menu-lines">
+        <span>ME</span><span>NU</span>
+      </span>
+    </button>
+  </div>
+</header>
+
+<section class="hero-section d-flex align-items-center">
   <div class="gradient" aria-hidden="true"></div>
   <div class="vignette"></div>
-  
-  <div class="hero-content">
-    <h1 class="hero-title flip-in">THINK<span class="bar-highlight">BAR</span></h1>
-    <p class="hero-subtitle">
-      SIMPLIFYING TECHNOLOGY,<br>
+
+  <div class="container text-white">
+    <h1 class="hero-title" data-aos="fade-up">THINKBAR</h1>
+    <p class="hero-subtitle" data-aos="fade-up" data-aos-delay="200">
+      SIMPLIFYING TECHNOLOGY,<br />
       CRAFTING SOLUTIONS
     </p>
   </div>
 
   <div class="rings-decoration">
-    <svg viewBox="0 0 280 280">
-      <ellipse class="ring" cx="140" cy="140" rx="130" ry="40" />
-      <ellipse class="ring" cx="140" cy="140" rx="115" ry="35" />
-      <ellipse class="ring" cx="140" cy="140" rx="100" ry="30" />
-      <ellipse class="ring" cx="140" cy="140" rx="85" ry="25" />
-      <ellipse class="ring" cx="140" cy="140" rx="70" ry="20" />
-      <ellipse class="ring" cx="140" cy="140" rx="55" ry="15" />
+    <svg viewBox="0 0 300 360" aria-hidden="true">
+      <g class="ring-group">
+        <ellipse cx="150" cy="90" rx="60" ry="110" />
+        <ellipse cx="150" cy="125" rx="62" ry="106" />
+        <ellipse cx="150" cy="155" rx="64" ry="102" />
+        <ellipse cx="150" cy="195" rx="64" ry="102" />
+        <ellipse cx="150" cy="235" rx="62" ry="106" />
+        <ellipse cx="150" cy="265" rx="60" ry="110" />
+      </g>
     </svg>
   </div>
 </section>
 
-<section class="section-light">
+<section class="section1">
   <div class="container">
     <div class="row align-items-center">
       <div class="col-md-6" data-aos="fade-right">
-        <img src="assets/firstImg.png" class="img-fluid" alt="">
+        <img src="assets/firstImg.png" class="img-fluid" alt="Thinkbar Work" />
       </div>
-      <div class="col-md-6" data-aos="fade-left">
-        <h2>BUILDING BRANDS THROUGH CODE, DESIGN & DIGITAL PERFORMANCE</h2>
-        <p>
-          We’re the digital folks who believe growth isn’t magic — it’s smart tech,
-          creativity & relentless optimization.
+
+      <div class="col-md-6 text-center" data-aos="fade-left">
+        <h2 class="section-title">
+          BUILDING BRANDS THROUGH CODE, DESIGN, AND DIGITAL PERFORMANCE.
+        </h2>
+        <h3 class="section-sub">OUR FORTE? 360° DIGITAL SOLUTIONS</h3>
+
+        <p class="section-lead">
+          We’re The Digital Folks Who Believe Growth Isn’t A Magic Wand,
+          It’s Smart Tech + Creative Muscle + Relentless Optimisation.
+          We’re The Partner Who Speaks Both Your Business And Growth Language.
         </p>
-        <button class="btn btn-dark mt-3">Let’s Build</button>
+
+        <a href="#" class="btn-cta">Cta – Let’s Build</a>
       </div>
     </div>
   </div>
 </section>
 
 <section class="section-light2">
-  <div class="container">
-    <div class="row justify-content-center">
-      <div class="col-lg-6 text-center" data-aos="fade-right">
-        <img src="assets/SecondImg.png" class="img-fluid mx-auto d-block" alt="">
-      </div>
-    </div>
+  <div class="container text-center">
+    <img src="assets/SecondImg.png" class="img-fluid" alt="Creative Process" data-aos="fade-right" />
   </div>
 </section>
 
-
-
-
-<section class="section-light text-center section-stack">
+<section class="section section-stack text-center">
   <div class="container">
     <div class="stack-title" data-aos="zoom-in">
       <div class="title-line">
         <span>THE STACK</span>
-        <svg class="nodejs-icon" viewBox="0 0 256 289" width="70" height="80">
-          <path fill="#539E43" d="M128 288.464c-3.975 0-7.685-1.06-11.13-2.915l-35.247-20.936c-5.3-2.915-2.65-3.975-1.06-4.505 7.155-2.385 8.48-2.915 15.9-7.156.796-.53 1.856-.265 2.65.265l27.032 16.166c1.06.53 2.385.53 3.18 0l105.74-61.217c1.06-.53 1.59-1.326 1.59-2.385V83.08c0-1.06-.53-2.12-1.59-2.65l-105.74-60.953c-1.06-.53-2.385-.53-3.18 0L20.405 80.166c-1.06.53-1.59 1.59-1.59 2.65v122.17c0 1.06.53 2.12 1.59 2.65l28.887 16.695c15.636 7.95 25.44-1.326 25.44-10.6V93.68c0-1.59 1.326-3.18 3.18-3.18h13.516c1.59 0 3.18 1.326 3.18 3.18v120.58c0 20.936-11.396 33.126-31.272 33.126-6.095 0-10.865 0-24.38-6.625l-27.827-15.9C4.24 220.885 0 213.465 0 205.515V83.346C0 75.396 4.24 67.976 11.13 64L116.87 2.783c6.625-3.71 15.635-3.71 22.26 0L244.87 64C251.76 67.975 256 75.395 256 83.346v122.17c0 7.95-4.24 15.37-11.13 19.345L139.13 286.08c-3.445 1.855-7.42 2.385-11.13 2.385z"/>
-          <path fill="#539E43" d="M146.285 199.155c-46.392 0-56.05-21.2-56.05-39.221 0-1.59 1.325-3.18 3.18-3.18h13.78c1.59 0 2.916 1.06 2.916 2.65 1.856 13.516 7.95 20.407 36.174 20.407 22.26 0 31.802-5.035 31.802-16.96 0-6.891-2.65-11.926-37.233-15.372-28.888-2.915-46.657-9.275-46.657-32.334 0-21.467 18.034-34.248 48.248-34.248 33.92 0 50.632 11.793 52.753 37.233 0 .795-.265 1.59-.795 2.385-.53.53-1.325 1.06-2.12 1.06h-13.78c-1.326 0-2.65-1.06-2.916-2.385-3.18-14.576-11.13-19.345-33.126-19.345-24.38 0-27.296 8.48-27.296 14.84 0 7.686 3.445 10.07 36.174 14.31 32.464 4.24 47.833 10.336 47.833 33.127 0 23.056-19.345 36.438-53 36.438z"/>
-        </svg>
         <span>THAT</span>
       </div>
-      
       <div class="title-line">
         <span>POWERS</span>
-        <svg class="arrow-icon" viewBox="0 0 24 24" width="55" height="55" fill="none" stroke="currentColor" stroke-width="2">
-          <line x1="7" y1="17" x2="17" y2="7"></line>
-          <polyline points="7 7 17 7 17 17"></polyline>
-        </svg>
         <span class="highlight">INNOVATION,</span>
       </div>
-      
       <div class="title-line">
         <span class="highlight">PERFORMANCE</span>
-        <svg class="starburst-icon" viewBox="0 0 100 100" width="55" height="55">
-          <g stroke="currentColor" stroke-width="2" fill="none">
-            <line x1="50" y1="10" x2="50" y2="90"/>
-            <line x1="10" y1="50" x2="90" y2="50"/>
-            <line x1="20" y1="20" x2="80" y2="80"/>
-            <line x1="80" y1="20" x2="20" y2="80"/>
-            <line x1="30" y1="10" x2="70" y2="90"/>
-            <line x1="10" y1="30" x2="90" y2="70"/>
-            <line x1="70" y1="10" x2="30" y2="90"/>
-            <line x1="90" y1="30" x2="10" y2="70"/>
-          </g>
-        </svg>
       </div>
-      
       <div class="title-line">
         <span>ACROSS EVERY PROJECT</span>
       </div>
@@ -109,12 +106,8 @@
   </div>
 </section>
 
-<section class="section-light2">
-    <div class="row justify-content-center">
-      <div class=" text-center" data-aos="fade-right">
-        <img src="assets/ThirdImg.png" class=" " alt="">
-      </div>
-    </div>
+<section class="section-light2 text-center">
+  <img src="assets/ThirdImg.png" class="img-fluid" alt="Team Work" data-aos="fade-right" />
 </section>
 
 <section class="section-light">
@@ -122,7 +115,7 @@
     <div class="row">
       <div class="col-md-6" data-aos="fade-up">
         <h2>WHAT MAKES US DIFFERENT</h2>
-        <p style="font-size: 1.1rem; line-height: 1.8;">
+        <p>
           We build digital experiences that drive performance — not just presence.
           Every project is backed by strategy, creativity and data-driven execution.
         </p>
@@ -132,15 +125,15 @@
     <div class="row text-center mt-5 stats">
       <div class="col-md-4" data-aos="fade-up">
         <h1>120+</h1>
-        <p style="font-size: 1.2rem; font-weight: 500;">Successful Projects</p>
+        <p>Successful Projects</p>
       </div>
       <div class="col-md-4" data-aos="fade-up" data-aos-delay="200">
         <h1>11+</h1>
-        <p style="font-size: 1.2rem; font-weight: 500;">Years in Business</p>
+        <p>Years in Business</p>
       </div>
       <div class="col-md-4" data-aos="fade-up" data-aos-delay="400">
         <h1>5+</h1>
-        <p style="font-size: 1.2rem; font-weight: 500;">Countries Served</p>
+        <p>Countries Served</p>
       </div>
     </div>
   </div>
@@ -152,7 +145,7 @@
   AOS.init({
     duration: 1000,
     once: true,
-    offset: 100
+    offset: 100,
   });
 </script>
 
