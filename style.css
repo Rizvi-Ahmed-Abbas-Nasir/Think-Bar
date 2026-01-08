@@ -329,14 +329,16 @@ color: #000;
 padding-top: 7%;
     }
     .section1 .section-title {
-      font-size: clamp(2.rem, 2vw, 5rem) !important;
-  font-weight: 900 !important;
-  line-height: 1.2 !important;
-  letter-spacing: -1px;
+      width: 100%;
+          font-size: clamp(3rem, 3vw, 5rem) !important;
+      font-weight: 900 !important;
+      line-height: 1.2 !important;
+      letter-spacing: -1px;
     }
 
+    
     .section1 .section-sub {
-      font-size: clamp(0.9rem, 1.8vw, 1.15rem);
+      font-size: clamp(0.8rem, 1.8vw, 1.15rem);
       font-weight: 800;
       text-transform: uppercase;
       letter-spacing: 0.6px;
